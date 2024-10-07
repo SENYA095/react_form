@@ -1,0 +1,63 @@
+/* Загальні стилі для форми */
+form {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #f9f9f9;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	/* Центрування по горизонталі */
+	align-items: center;
+	/* Центрування по вертикалі */
+	height: 100vh;
+	/* 100% висоти екрана */
+}
+
+h1 {
+	text-align: center;
+}
+
+/* Стилі для полів вводу */
+input[type="text"] {
+	margin-top: 15px;
+	
+}
+
+input[type="password"] {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+
+
+/* Стилі для кнопки */
+button {
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* Ховери на кнопці */
+button:hover {
+	background-color: #45a049;
+}
+.NewPageh1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: 100px;
+	margin: 0;
+
+}
