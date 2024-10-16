@@ -10,7 +10,7 @@ form {
 	background-color: #f9f9f9;
 }
 
-.container {
+.wrapper {
 	display: flex;
 	justify-content: center;
 	/* Центрування по горизонталі */
@@ -20,22 +20,9 @@ form {
 	/* 100% висоти екрана */
 }
 
-h1 {
+/* h1 {
 	text-align: center;
-}
-
-/* Стилі для полів вводу */
-input[type="text"] {
-	margin-top: 15px;
-	
-}
-
-input[type="password"] {
-	margin-bottom: 15px;
-	margin-top: 15px;
-}
-
-
+} */
 
 /* Стилі для кнопки */
 button {
@@ -52,12 +39,27 @@ button {
 button:hover {
 	background-color: #45a049;
 }
-.NewPageh1{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	font-size: 100px;
-	margin: 0;
 
+.span-color {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрування по горизонталі */
+  justify-content: center; /* Центрування по вертикалі, якщо потрібно */
+  text-align: center;
+}
+.centered-image {
+  max-width: 100%; /* Щоб зображення не виходило за межі контейнера */
+  height: auto;
+}
+.centered-heading {
+  margin-top: 10px; /* Відступ між зображенням і заголовком */
+  font-size: 24px;
+}
+.container{
+margin: 0;
+	
 }
