@@ -6,7 +6,7 @@ import { Container, Tab, Row, Col, Nav } from 'react-bootstrap'
 const SideBar = () => {
 
 	return (
-		<Container>
+		<Container fluid className='m-0'>
 			<Tab.Container id="ledt-tabs-example" defaultActiveKey="first">
 				<Row>
 					<Col sm = {3}  className="bg-dark text-white vh-100">
