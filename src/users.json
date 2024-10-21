@@ -3,16 +3,19 @@
   {
     "email": "arsenkorol@gmail.com",
     "password": "1234",
-		"username": "arsen"
+		"username": "arsen",
+		"access_level": "admin"
   },
   {
     "email": "senyakorol@gmail.com",
     "password": "password2",
-		"username": "senya"
+		"username": "senya",
+		"access_level": "user"
   },
   {
     "email": "huyok@gmail.com",
     "password": "password3",
-		"username": "huyok"
+		"username": "huyok",
+		"access_level": "user"
   }
 ]

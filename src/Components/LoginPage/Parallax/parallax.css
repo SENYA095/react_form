@@ -1,0 +1,18 @@
+.mouse-parallax{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.mouse-parallax_background{
+	position: absolute;
+	z-index: -1;
+	width: 110%;
+	height: 110%;
+	background-image: url(./paralax-image.png);
+	background-position: center center;
+background-size: cover;
+}

@@ -1,0 +1,34 @@
+.scrollable-content {
+  max-height: 90vh; /* Встановлює максимальну висоту для контенту вкладок */
+  overflow-y: auto; /* Вертикальний скрол */
+  padding: 20px;
+  width: 100%;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.centered-heading {
+  text-align: center;
+}
+.position-fixed {
+  position: fixed; /* Фіксує бокову панель, щоб вона не скролилася */
+}
+
+.offset-sm-3 {
+  margin-left: 25%; /* Відсуває основний контент праворуч від бокової панелі */
+}
+
+/* styles.css */
+
+.user-content {
+  margin-bottom: 20px; /* Відступ між секціями кожного користувача */
+}
+
+.user-detail {
+  display: flex; /* Вирівнює елементи в один рядок */
+  gap: 15px; /* Відступи між елементами */
+  margin-bottom: 10px; /* Відступ між рядками */
+}
